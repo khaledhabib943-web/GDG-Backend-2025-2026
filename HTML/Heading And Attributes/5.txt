@@ -1,0 +1,8 @@
+title-->Global
+href--->not global
+src---->not global
+hidden->Global
+charset>not global
+class-->Global
+id----->Global
+type--->not global

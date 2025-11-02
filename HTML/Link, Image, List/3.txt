@@ -1,0 +1,8 @@
+<!-- Go To External Link -->
+<a href="https://google.com">Google</a>
+<!-- Go To anthor page -->
+<a href="test.html">test</a>
+<!-- Go To a part in the same page -->
+<a href="#khaled">go to khaled</a>
+<!-- Go To send an email -->
+<a href="mailto:khaledhabib@gmail.com">mail me</a>
