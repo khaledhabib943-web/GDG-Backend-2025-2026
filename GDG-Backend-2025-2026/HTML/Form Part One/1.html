@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>My Page</title>
+            <meta charset="UTF-8" />
+            <meta name="description" content="This Is Description For My First Page" />
+            <link rel="stylesheet" href="style.css" />
+            <style></style>
+            <script></script>
+    </head>
+    <body>
+
+        <form action="test.py" method="POST">
+
+            <input type="hidden" name="user_id" value="12345">
+
+            <label>
+                Username:
+            </label>
+            <br>
+            <input
+            type="text"
+            name="username"
+            placeholder="first and second name"
+            required
+            >
+            <hr>
+
+            <label>
+                Password:
+            </label>
+            <br>
+            <input
+            type="password"
+            name="password"
+            placeholder="Write Strong password"
+            >
+            <hr>
+
+            <label>
+                Mobile:
+            </label>
+            <br>
+            <input
+            type="tel"
+            name="mobile"
+            placeholder="like: +20100 (234) 123"
+            >
+            <hr>
+
+            <label>
+                Email:
+            </label>
+            <br>
+            <input
+            type="email"
+            name="email"
+            placeholder="Write a valid email"
+            required
+            >
+            <hr>
+
+            <label>
+                Subject:
+            </label>
+            <br>
+            <input
+            type="text"
+            name="subject"
+            placeholder="Write the title of the message"
+            >
+            <hr>
+
+            <button type="reset">Empty Form</button>
+            <button type="submit">Send Data</button>
+
+        </form>
+    </body>
+</html>
